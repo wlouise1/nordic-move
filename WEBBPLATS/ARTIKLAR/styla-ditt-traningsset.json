@@ -1,0 +1,50 @@
+{
+  "title": "Från gym till vardag – styla ditt träningsset",
+  "content": [
+    {
+      "type": "h1",
+      "text": "Från gym till vardag – styla ditt träningsset"
+    },
+    {
+      "type": "p",
+      "text": "Ett matchande träningsset kan vara en utgångspunkt för flera outfits. Med några enkla lager skapar du en stil som fungerar både före och efter passet."
+    },
+    {
+      "type": "img",
+      "src": "images/traningsset-vardag.png",
+      "alt": "Illustration i beige och puderrosa toner med mjuka former inspirerade av rörelse och träningsmode"
+    },
+    {
+      "type": "h2",
+      "text": "Bygg med enkla lager"
+    },
+    {
+      "type": "p",
+      "text": "En rymlig skjorta, en mjuk stickad tröja eller en kort jacka kan ge ett träningsset en mer vardaglig känsla. Håll gärna färgerna samman för en lugn helhet."
+    },
+    {
+      "type": "h2",
+      "text": "Låt detaljerna göra jobbet"
+    },
+    {
+      "type": "p",
+      "text": "En neutral väska och ett par rena sneakers kan göra att outfiten känns genomtänkt utan att bli komplicerad. Välj detaljer efter väder och aktivitet."
+    },
+    {
+      "type": "h3",
+      "text": "Snabba tips"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Kombinera beige eller puderrosa med off-white.",
+        "Lägg till ett löst ytterplagg för kontrast.",
+        "Använd accessoarer du redan har i garderoben."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Det bästa med en mångsidig garderob är att plaggen kan användas oftare, på fler sätt."
+    }
+  ]
+}

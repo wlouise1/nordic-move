@@ -1,0 +1,50 @@
+{
+  "title": "Så väljer du rätt träningskläder för pilates",
+  "content": [
+    {
+      "type": "h1",
+      "text": "Så väljer du rätt träningskläder för pilates"
+    },
+    {
+      "type": "p",
+      "text": "Pilates handlar om kontrollerade rörelser, fokus och frihet att röra sig. Här är några saker att tänka på när du väljer kläder till passet."
+    },
+    {
+      "type": "img",
+      "src": "images/pilates.png",
+      "alt": "Illustration i beige och puderrosa toner med mjuka former inspirerade av rörelse och träningsmode"
+    },
+    {
+      "type": "h2",
+      "text": "Rörelsefrihet är viktigast"
+    },
+    {
+      "type": "p",
+      "text": "Välj plagg som följer kroppens rörelser utan att strama eller glida. Mjuka material och en passform som känns trygg kan göra det lättare att fokusera på övningarna."
+    },
+    {
+      "type": "h2",
+      "text": "Tänk på material och känsla"
+    },
+    {
+      "type": "p",
+      "text": "Prova gärna träningskläderna i några enkla rörelser innan passet. Känn efter hur materialet sitter när du böjer dig, sträcker dig och ligger på mattan."
+    },
+    {
+      "type": "h3",
+      "text": "Snabba tips"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Prioritera en passform som känns bekväm i olika positioner.",
+        "Välj material efter hur varmt du brukar bli under passet.",
+        "Se till att plaggen fungerar tillsammans med din vanliga träning."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "En genomtänkt pilatesgarderob behöver inte vara stor. Några plagg som du verkligen trivs i räcker långt."
+    }
+  ]
+}

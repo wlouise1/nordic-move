@@ -1,0 +1,15 @@
+/* Artikeln får en lättläst textbredd och luft som passar Nordic Moves design. */
+.article-layout { max-width: 880px; margin: 0 auto; padding: 64px 24px 110px; min-height: 70vh; }
+.back-link { color: #956f72; text-decoration: none; font-weight: 700; font-size: 14px; }
+.back-link:hover { text-decoration: underline; }
+#artikel { margin-top: 38px; }
+#artikel h1 { font-size: clamp(36px, 5vw, 58px); margin: 0 0 28px; }
+#artikel h2 { font-size: clamp(26px, 3vw, 34px); margin: 42px 0 16px; }
+#artikel h3 { font-size: 23px; margin: 30px 0 12px; }
+#artikel p { margin: 0 0 20px; font-size: 17px; line-height: 1.8; }
+/* Första stycket efter h1 fungerar som ingress och får en tydligare visuell roll. */
+#artikel h1 + p { color: #786c68; font-size: 21px; line-height: 1.65; }
+#artikel img { display: block; max-width: 100%; height: auto; margin: 30px auto; border-radius: 8px; }
+#artikel ul, #artikel ol { padding-left: 26px; line-height: 1.9; margin-bottom: 24px; }
+#artikel li { padding-left: 6px; margin-bottom: 7px; }
+@media (max-width: 650px) { .article-layout { padding: 40px 20px 75px; } #artikel p { font-size: 16px; } }

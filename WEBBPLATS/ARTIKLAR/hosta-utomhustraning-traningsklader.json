@@ -1,0 +1,79 @@
+{
+  "title": "Så väljer du träningskläder för höstens utomhusträning",
+  "content": [
+    {
+      "type": "h1",
+      "text": "Så väljer du träningskläder för höstens utomhusträning"
+    },
+    {
+      "type": "p",
+      "text": "Kyliga morgnar, milda eftermiddagar och skiftande väder gör hösten till en säsong då rätt kläder kan göra utomhusträningen bekvämare. Med några genomtänkta lager blir det enklare att anpassa träningskläderna efter både passet och vädret."
+    },
+    {
+      "type": "img",
+      "src": "images/hosttraning.png",
+      "alt": "Person i rosa träningskläder med en ljus jacka och träningsväska i en inomhusmiljö"
+    },
+    {
+      "type": "h2",
+      "text": "Klä dig i lager"
+    },
+    {
+      "type": "p",
+      "text": "Lager på lager gör det lättare att reglera värmen när temperaturen växlar. Börja med ett bekvämt lager närmast kroppen, lägg till ett värmande mellanlager när det är kyligt och komplettera med ett ytterlager som passar vind och nederbörd. Du kan ta av ett lager när kroppen blir varm under passet."
+    },
+    {
+      "type": "h2",
+      "text": "Välj material efter väder och aktivitet"
+    },
+    {
+      "type": "p",
+      "text": "Under ett intensivt pass kan ett lätt funktionsmaterial som hjälper till att transportera bort fukt kännas behagligt. För lugnare träning kan du prioritera mjukhet och värme. Om det blåser eller regnar kan ett vindtätt eller vattenavvisande ytterlager vara ett praktiskt komplement."
+    },
+    {
+      "type": "h3",
+      "text": "En enkel lagerguide"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Baslager: välj ett plagg som sitter bekvämt och fungerar för intensiteten i passet.",
+        "Mellanlager: lägg till ett värmande plagg när temperaturen kräver det.",
+        "Ytterlager: anpassa skyddet efter vind, regn och hur länge du ska vara ute."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Prioritera passform och rörelsefrihet"
+    },
+    {
+      "type": "p",
+      "text": "Kläderna ska kännas bekväma när du går, springer eller gör övningar med större rörelser. Kontrollera att linning och sömmar inte skaver och att plaggen inte begränsar dig. Testa gärna några rörelser hemma innan du ger dig ut, särskilt om du har flera lager på dig."
+    },
+    {
+      "type": "h2",
+      "text": "Tänk på synlighet och detaljer"
+    },
+    {
+      "type": "p",
+      "text": "Höstdagarna blir snabbt mörkare. Om du tränar nära trafik eller i svagt ljus är reflexer ett viktigt komplement till klädseln. En ficka med plats för nycklar och en halskrage eller mössa kan också vara praktiska detaljer på kyliga pass."
+    },
+    {
+      "type": "h2",
+      "text": "Checklista före utomhuspasset"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Kolla temperaturen och om det väntas vind eller regn.",
+        "Välj lager som går att justera när du blir varm.",
+        "Kontrollera att kläderna känns bekväma när du rör dig.",
+        "Ta med reflexer om du ska träna i mörker eller skymning."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "De bästa träningskläderna för höstens utomhusträning är de som passar vädret, aktiviteten och din egen komfort. Börja med lager du redan trivs i och justera efter förhållandena ute."
+    }
+  ]
+}

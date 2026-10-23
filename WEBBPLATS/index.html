@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO: sidans titel och beskrivning visas bland annat i sökresultat. -->
+  <title>Nordic Move – Träningskläder med komfort och rörelsefrihet</title>
+  <meta name="description" content="Upptäck Nordic Move: stilrena träningskläder för pilates, gym och vardag. Läs våra guider och hitta inspiration för rörelse, komfort och personlig stil.">
+  <!-- Extern CSS håller designen åtskild från sidans innehåll. -->
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Semantisk header med navigation gör sidan lättare att förstå och använda. -->
+  <header class="site-header">
+    <a class="logo" href="index.html" aria-label="Nordic Move – startsida">NORDIC <span>MOVE</span></a>
+    <nav aria-label="Huvudmeny">
+      <a href="#om-oss">Om oss</a>
+      <a href="#artiklar">Inspiration</a>
+      <a href="#nyhetsbrev">Nyhetsbrev</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <p class="eyebrow">FREEDOM OF MOVEMENT</p>
+        <h1 id="hero-title">Designat för din rörelse.</h1>
+        <p>Träningskläder som förenar stil, komfort och rörelsefrihet – från pilatesstudion till vardagens alla ögonblick.</p>
+        <a class="button" href="#artiklar">Upptäck våra guider <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="hero-image">
+        <img src="images/nordic-move-hero.jpg" alt="Person i stilrent träningsset som gör en stretchövning i ljus träningsstudio">
+      </div>
+    </section>
+
+    <section class="intro section" id="om-oss" aria-labelledby="intro-title">
+      <p class="eyebrow">OM NORDIC MOVE</p>
+      <h2 id="intro-title">Rörelse utan begränsningar</h2>
+      <p>Nordic Move är ett koncept för träningskläder med genomtänkt passform och en avskalad, skandinavisk stil. Vi vill inspirera till rörelse som känns bra – oavsett om du tränar pilates, springer eller går till gymmet.</p>
+    </section>
+
+    <section class="section articles" id="artiklar" aria-labelledby="articles-title">
+      <p class="eyebrow">INSPIRATION & GUIDER</p>
+      <h2 id="articles-title">Hitta din rörelse</h2>
+      <p class="section-lead">Tips och inspiration för en aktiv vardag.</p>
+      <div class="article-grid">
+        <article class="article-card">
+          <p class="card-category">PILATES</p>
+          <h3>Så väljer du rätt träningskläder för pilates</h3>
+          <p>En guide till komfort och rörelsefrihet under ditt pass.</p>
+          <a href="artikel.html?id=traningsklader-for-pilates">Läs artikeln <span aria-hidden="true">→</span></a>
+        </article>
+        <article class="article-card">
+          <p class="card-category">TRÄNING</p>
+          <h3>Vad ska du tänka på när du väljer träningstights?</h3>
+          <p>Passform, material och detaljer som gör skillnad.</p>
+          <a href="artikel.html?id=valja-traningstights">Läs artikeln <span aria-hidden="true">→</span></a>
+        </article>
+        <article class="article-card">
+          <p class="card-category">LIVSSTIL</p>
+          <h3>Från gym till vardag – styla ditt träningsset</h3>
+          <p>Idéer för en garderob som följer med hela dagen.</p>
+          <a href="artikel.html?id=styla-ditt-traningsset">Läs artikeln <span aria-hidden="true">→</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="newsletter section" id="nyhetsbrev" aria-labelledby="newsletter-title">
+      <div>
+        <p class="eyebrow">BLI EN DEL AV NORDIC MOVE</p>
+        <h2 id="newsletter-title">15 % på din första beställning</h2>
+        <p>Få inspiration, nyheter och erbjudanden direkt i din inkorg.</p>
+      </div>
+      <!-- Formuläret är en demonstration: inga personuppgifter skickas eller lagras. -->
+      <form id="newsletter-form">
+        <label for="email">Din e-postadress</label>
+        <div class="form-row">
+          <input id="email" name="email" type="email" placeholder="namn@exempel.se" autocomplete="email" required>
+          <button type="submit">Prenumerera</button>
+        </div>
+        <p class="form-note">Demoformulär för kursuppgiften – ingen riktig registrering sker.</p>
+        <div id="form-message" role="status" aria-live="polite"></div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 NORDIC MOVE · Designat för din rörelse.</p>
+    <a href="#hero-title">Till toppen ↑</a>
+  </footer>
+</body>
+</html>

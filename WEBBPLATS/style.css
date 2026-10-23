@@ -1,0 +1,51 @@
+/* Grundstil och färger för Nordic Moves skandinaviska uttryck. */
+:root { --green:#73564f; --sand:#f6eee8; --cream:#fff9f5; --ink:#3d302e; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin:0; font-family: Arial, Helvetica, sans-serif; color:var(--ink); background:var(--cream); line-height:1.6; }
+a { color:inherit; }
+.site-header { display:flex; justify-content:space-between; align-items:center; gap:20px; padding:22px max(5%, 24px); background:var(--cream); }
+.logo { font-weight:800; letter-spacing:.15em; text-decoration:none; font-size:19px; }
+.logo span { color:#bd8f92; }
+nav { display:flex; flex-wrap:wrap; gap:22px; }
+nav a { text-decoration:none; font-size:14px; }
+nav a:hover, .article-card a:hover { text-decoration:underline; }
+.hero { display:grid; grid-template-columns:1fr 1fr; min-height:550px; background:var(--sand); }
+.hero-content { align-self:center; padding:70px max(9%, 35px); }
+.eyebrow { font-size:12px; font-weight:700; letter-spacing:.18em; }
+h1,h2,h3 { line-height:1.15; }
+h1 { font-size:clamp(44px, 5.5vw, 78px); max-width:650px; margin:20px 0; }
+h2 { font-size:clamp(30px, 3.6vw, 48px); margin:14px 0 20px; }
+h3 { font-size:23px; }
+.hero-content > p:not(.eyebrow) { max-width:450px; font-size:17px; }
+.button, button { display:inline-block; border:0; background:var(--green); color:white; padding:15px 24px; font:inherit; font-weight:700; text-decoration:none; cursor:pointer; }
+.button { margin-top:20px; }
+.button:hover, button:hover { background:#60433e; }
+.hero-image { min-height:350px; background:#e8cbcb; }
+.hero-image img { width:100%; height:100%; object-fit:cover; display:block; }
+/* Gemensam sektionstyp ger konsekvent luft och tydlig hierarki. */
+.section { padding:90px max(5%, 24px); }
+.intro { text-align:center; max-width:900px; margin:auto; }
+.intro > p:last-child { max-width:690px; margin:0 auto; }
+.articles { background:#fffdfb; }
+.section-lead { margin-top:-8px; }
+.article-grid { display:grid; grid-template-columns:repeat(3, 1fr); gap:22px; margin-top:35px; }
+.article-card { padding:35px; background:#f8efec; min-height:280px; display:flex; flex-direction:column; }
+.card-category { font-size:12px; font-weight:bold; letter-spacing:.15em; color:#956f72; }
+.article-card a { margin-top:auto; font-weight:bold; text-decoration:none; }
+.newsletter { display:grid; grid-template-columns:1fr 1fr; gap:45px; align-items:center; background:#f0dedb; }
+.newsletter form label { display:block; font-weight:bold; margin-bottom:8px; }
+.form-row { display:flex; }
+.form-row input { min-width:0; flex:1; border:1px solid #bda7a0; padding:14px; font:inherit; }
+.form-note { font-size:12px; }
+#form-message { margin-top:10px; font-weight:bold; }
+.site-footer { display:flex; justify-content:space-between; gap:15px; padding:28px max(5%, 24px); background:var(--green); color:white; font-size:13px; }
+.site-footer a { align-self:center; }
+/* Mobilanpassning: stapla kolumner när skärmen blir smal. */
+@media (max-width:750px) { .site-header,.site-footer { flex-direction:column; align-items:flex-start; } .hero,.newsletter { grid-template-columns:1fr; } .hero-content { padding:65px 7%; } .hero-image { height:380px; } .article-grid { grid-template-columns:1fr; } .section { padding:65px 7%; } .form-row { flex-direction:column; } }
+
+/* Mjukare, feminin färgskala och subtila rundningar för Nordic Move. */
+.button, button { border-radius: 5px; }
+.article-card { border-radius: 8px; }
+.form-row input { border-radius: 5px 0 0 5px; }
+@media (max-width:750px) { .form-row input { border-radius: 5px; } }

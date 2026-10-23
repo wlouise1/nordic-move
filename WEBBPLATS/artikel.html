@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Artikelns titel uppdateras av lärarens JavaScript när JSON har hämtats. -->
+  <title>Artikel | NORDIC MOVE</title>
+  <meta name="description" content="Läs Nordic Moves guider och inspiration om pilates, träningskläder och en aktiv vardag.">
+  <!-- Startsidan och artikelsidan delar grundstilar för samma visuella identitet. -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="artikel.css">
+  <script src="artikel.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html" aria-label="Nordic Move – startsida">NORDIC <span>MOVE</span></a>
+    <nav aria-label="Huvudmeny">
+      <a href="index.html#om-oss">Om oss</a>
+      <a href="index.html#artiklar">Inspiration</a>
+      <a href="index.html#nyhetsbrev">Nyhetsbrev</a>
+    </nav>
+  </header>
+  <main class="article-layout">
+    <a class="back-link" href="index.html#artiklar">← Tillbaka till inspiration</a>
+    <!-- Lärarens skript skapar artikelns innehåll här utifrån JSON-block. -->
+    <article id="artikel"></article>
+  </main>
+  <footer class="site-footer">
+    <p>© 2026 NORDIC MOVE · Designat för din rörelse.</p>
+    <a href="index.html">Till startsidan ↑</a>
+  </footer>
+</body>
+</html>
